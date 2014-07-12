@@ -4,6 +4,61 @@
 	color: red;
 }
 
+/*
+body, html
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #ededed;
+	font-family: 'Trebuchet MS';
+}
+
+.container
+{
+	width:90%;
+	min-width: 500px;
+	margin: auto;
+}
+
+header
+{
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	background-color: #313131;
+}
+
+header span
+{
+	color: #fff;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+nav
+{
+	width: 100%;
+	height: 40px;
+	background-color: #ff6a00;
+}
+
+.content
+{
+	width: 100%;
+	height: 700px;
+	padding: 10px 10px;
+	background-color: #fff;
+}
+
+
+footer
+{
+	width: 100%;
+	height: 80 px;
+	background-color:  #808080;
+	margin-bottom: 20px;
+}
+*/
 .body_class
 {
 	margin-right: 10%;
@@ -22,11 +77,12 @@ ul.main_dropdown_menu, ul.main_dropdown_menu ul
 ul.main_dropdown_menu li
 {
 	float:left;
-	width:20%;
+	width:300px;
 	vertical-align:middle;
 	line-height:21px;
 	position:relative;
 }
+
 
 /*all menu links*/
 ul.main_dropdown_menu li a
@@ -61,18 +117,19 @@ ul.main_dropdown_menu li:hover > ul
 ul.main_dropdown_menu ul ul
 {
 	position:absolute;
-	left:50%;
+	left:120%;
 	top:0;
 	display:none;
 }
 /*Modify 2nd and 3rd tiers menu*/
 ul.main_dropdown_menu ul.bigger_width_list li a
 {
-	width:120%;
+	width:350px;
 	color:#fff;
 	background:#000000;
 }
 
+/*Modify 2nd and 3rd tiers menu when hovered*/
 ul.main_dropdown_menu ul.bigger_width_list li:hover > a
 {
 	background:#939393;
