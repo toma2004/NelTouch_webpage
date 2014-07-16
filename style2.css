@@ -70,6 +70,7 @@ ul.main_dropdown_menu li a
 	display:block; /*display as a block instead of individual elements*/
 	text-decoration:none; /*no underline for links*/
 	color: #fff;
+	font-size:100%;
 }
 
 /*First tier menu*/
@@ -124,6 +125,58 @@ ul.main_dropdown_menu li ul li.header_second_tier_list
 {
 	font-weight: bold;
 }
+
+/**********************************************************************************************
+Adjustment for different screen sizes on PC
+**********************************************************************************************/
+@media all and (max-width:1700px)
+{
+	/*double the size of 2nd tier menu box*/
+	ul.main_dropdown_menu ul.bigger_width_list
+	{
+		width: 250%;
+	}
+}
+
+@media all and (max-width:1400px)
+{
+	/*double the size of 2nd tier menu box*/
+	ul.main_dropdown_menu ul.bigger_width_list
+	{
+		width: 300%;
+	}
+}
+
+@media all and (max-width:1200px)
+{
+	/*double the size of 2nd tier menu box*/
+	ul.main_dropdown_menu ul.bigger_width_list
+	{
+		width: 400%;
+	}
+}
+
+@media all and (max-width:900px)
+{
+	ul.main_dropdown_menu ul.bigger_width_list .second_tier
+	{
+		height: 110px;
+	}
+}
+
+@media all and (max-width:700px)
+{
+	ul.main_dropdown_menu li a
+	{
+		font-size:90%;
+	}
+		nav
+	{
+		height: 18px;
+	}
+}
+/***********************************************************************************************/
+
 /**********************************************************************************************
 Navigation bar css style ends
 **********************************************************************************************/
